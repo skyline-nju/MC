@@ -18,9 +18,6 @@
     <ClInclude Include="particle_2.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="comn.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="rand.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -30,21 +27,18 @@
     <ClInclude Include="boundary.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ioData.h">
+    <ClInclude Include="output.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="comn.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="particle_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ioData.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="output.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

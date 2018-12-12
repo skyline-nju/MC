@@ -117,16 +117,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="boundary.h" />
-    <ClInclude Include="comn.h" />
-    <ClInclude Include="ioData.h" />
+    <ClInclude Include="output.h" />
     <ClInclude Include="particle_2.h" />
     <ClInclude Include="rand.h" />
     <ClInclude Include="vect.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="comn.cpp" />
-    <ClCompile Include="ioData.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="output.cpp" />
     <ClCompile Include="particle_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

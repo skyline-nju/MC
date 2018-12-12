@@ -2,6 +2,11 @@
 #define VECT_H
 #include <cmath>
 
+/**
+ * @brief Class for 2-d vector
+ * 
+ * @tparam T 
+ */
 template <typename T>
 struct Vec_2 {
   T x, y;
@@ -52,24 +57,6 @@ struct Vec_2 {
     x = x_new;
     y = y_new;
   }
-};
-
-template <typename T>
-struct Vec_3 {
-  T x, y, z;
-
-  Vec_3() : x(0), y(0), z(0) {};
-  //Vec_3(T a) : x(a), y(a), z(a) {};
-  Vec_3(const Vec_3<T> &a) : x(a.x), y(a.y), z(a.z) {};
-  Vec_3(T x0, T y0, T z0) : x(x0), y(y0), z(z0) {}
-
-  void operator += (const Vec_2<T> &a) { x += a.x; y += a.y; }
-  void operator += (const Vec_3<T> &a) { x += a.x; y += a.y; z += a.z; }
-  void operator -= (const Vec_2<T> &a) { x -= a.x; y -= a.y; }
-  void operator -= (const Vec_3<T> &a) { x -= a.x; y -= a.y; z -= a.z; }
-
-  double square() const { return x * x + y * y + z * z; }
-
 };
 
 #endif
